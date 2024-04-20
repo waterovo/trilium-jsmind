@@ -1,5 +1,6 @@
 # Trilium-jsmind
-![image](https://github.com/waterovo/Trilium-jsmind/assets/61768530/ada2821b-ac11-410d-9541-7e259d85b79a)
+![image](https://github.com/waterovo/Trilium-jsmind/assets/61768530/0df428b3-1562-4670-9fb9-fbda110541cb)
+
 在trilium创建jsmind思维导图，可以编辑并实时保存
 （Trilium 0.63.5）
 ## 如何安装
@@ -12,3 +13,4 @@
 - cssNoteIdList jsmind.css和css笔记的ID。
 3. 修改trilium-jsmind笔记的jmNote关系，指向sample笔记
 4. JmNoteOpenWidget添加#widget标签（可选）
+![image](https://github.com/waterovo/Trilium-jsmind/assets/61768530/52df0a07-6422-43ab-8121-514b341cb2d2)
