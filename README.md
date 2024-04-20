@@ -13,4 +13,5 @@
 - cssNoteIdList jsmind.css和css笔记的ID。
 3. 修改trilium-jsmind笔记的jmNote关系，指向sample笔记
 4. JmNoteOpenWidget添加#widget标签（可选）
+  
 ![image](https://github.com/waterovo/Trilium-jsmind/assets/61768530/52df0a07-6422-43ab-8121-514b341cb2d2)
