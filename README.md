@@ -1,5 +1,5 @@
 # README
-Trilium-jsmind
+trilium-jsmind
 --------------
 
 ![](README_image.png)
