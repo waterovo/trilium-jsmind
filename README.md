@@ -22,7 +22,7 @@ trilium-jsmind
 
 ![](1_README_image.png)
 
-如何进行图像引用
+#### 如何进行图像引用
 
 因trilium的api限制，本插件通过创建一个图像笔记间接实现图像引用。
 
