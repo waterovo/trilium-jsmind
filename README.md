@@ -1,17 +1,59 @@
-# Trilium-jsmind
-![image](https://github.com/waterovo/Trilium-jsmind/assets/61768530/0df428b3-1562-4670-9fb9-fbda110541cb)
+# README
+Trilium-jsmind
+--------------
 
-在trilium创建jsmind思维导图，可以编辑并实时保存
-（Trilium 0.63.5）
-## 如何安装
-1. 导入笔记，取消勾选安全导入选项
-2. 修改config
-- JM_CANVAS_NOTE_ID 渲染笔记trilium-jsmind笔记的ID；
-- JM_DIR_NOTE_ID 新建jsmind笔记存放的目录（自己新建一个笔记，然后复制笔记ID填入该参数）；
-- JM_SAMPLE_NOTE_ID sample笔记的ID；
-- JM_TPL_NOTE_ID 模板目录下的jsMind-intro笔记的ID；
-- cssNoteIdList jsmind.css和css笔记的ID。
-3. 修改trilium-jsmind笔记的jmNote关系，指向sample笔记
-4. JmNoteOpenWidget添加#widget标签（可选）
-  
-![image](https://github.com/waterovo/Trilium-jsmind/assets/61768530/52df0a07-6422-43ab-8121-514b341cb2d2)
+![](README_image.png)
+
+在trilium创建jsmind思维导图，可以编辑并实时保存 （Trilium 0.63.5）
+
+### 如何安装
+
+1.  导入笔记，取消勾选安全导入选项（如果您不熟悉trilium的小部件，请谨慎操作）
+2.  检查下列笔记是否已经添加标签（默认已经添加）
+    1.  TriliumJsmindWidget笔记添加 `#widget` 标签
+    2.  template添加 `#jsMindWidgetTemplate` 标签
+    3.  css和jsmind.css添加 `#jsMindWidgetCss` 标签
+    4.  jsMind笔记添加 `#template` 标签
+3.  开始使用
+
+### 使用说明
+
+#### 如何创建jsMind笔记
+
+![](1_README_image.png)
+
+如何进行图像引用
+
+因trilium的api限制，本插件通过创建一个图像笔记间接实现图像引用。
+
+![](2_README_image.png)
+
+点击【Save image note】，会在jsMind笔记下生成一个jsMind-export图像子笔记。
+
+![](3_README_image.png)
+
+复制引用，插入到其他笔记。
+
+![](4_README_image.png)
+
+更新完思维导图后，点击【Save image note】会更新jsMind-export图像子笔记，可以看到其他笔记内的引用也更新了。
+
+### 正在实现的功能
+
+> 或者待修复的bug
+
+*    图像引用
+*    ~全屏显示~（准确的说是隐藏编辑框）
+*    记录jsMind主题颜色
+*    渲染更改为显示在笔记右侧
+*    ~更详细的说明~（已经去除繁琐的操作）
+
+### 版本历史
+
+**v1.1.0（当前版本）**
+
+渲染更改为显示在笔记右侧，更加适配trilium的操作逻辑；无需再配置笔记ID；生成图像子笔记，间接实现图像引用。
+
+**v1.0.0**
+
+验证版本，能够渲染和编辑jsmind。
