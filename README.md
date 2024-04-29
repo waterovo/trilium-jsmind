@@ -66,13 +66,13 @@ trilium-jsmind
 
 > 或者待修复的bug
 
-*   处理domtoimage生成图像模糊的问题
-*   添加简单图片节点
-*   右键菜单（jsmind.menu.js）
-*   图像引用
-*   全屏显示
-*   记录jsMind主题颜色
-*   jsMind渲染在笔记右侧
+- [x] 处理domtoimage生成图像模糊的问题
+- [x] 添加简单图片节点
+- [x] 右键菜单（jsmind.menu.js）
+- [x] 图像引用
+- [x] 全屏显示
+- [x] 记录jsMind主题颜色
+- [x] jsMind渲染在笔记右侧
 
 ### 版本历史
 
