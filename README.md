@@ -6,6 +6,8 @@ trilium-jsmind
 
 在trilium创建jsmind思维导图，可以编辑并实时保存 （Trilium 0.63.5）
 
+> 看看这个[trilium-simple-mind-map](https://github.com/waterovo/trilium-simple-mind-map)
+
 使用了以下项目：
 
 [hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
