@@ -2,6 +2,8 @@
 trilium-jsmind
 --------------
 
+**此项目已终止维护，建议使用[trilium-simple-mind-map](https://github.com/waterovo/trilium-simple-mind-map)代替**
+
 ![](README_image.png)
 
 在trilium创建jsmind思维导图，可以编辑并实时保存 （Trilium 0.63.5）
@@ -98,7 +100,6 @@ trilium-jsmind
 
 > 或者待修复的bug
 
-- [ ] ~撤销/重做功能~
 - [x] 新增渲染位置更改的配置，可以将jsMind渲染在笔记区域了
 - [x] 调整代码结构
 - [x] 节点颜色和文字大小自定义
@@ -113,7 +114,11 @@ trilium-jsmind
 
 ### 版本历史
 
-**v2.0.1（当前版本）**
+**v2.0.2（当前版本）**
+
+没有功能更新；修复同步导致的编辑bug。
+
+**v2.0.1**
 
 调整代码结构；新增渲染位置更改的配置，现在可以将jsMind渲染在笔记区域了；添加图像引用浮动按钮。
 
